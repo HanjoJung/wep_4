@@ -2,6 +2,15 @@
 
 body {
 	background-image: url("../images/back.gif");
+	font: 13px/1.5 "Nanum Gothic", "나눔고딕", "돋움", Dotum, "굴림", Gulim,
+		sans-serif;
+	color: #646464;
+	line-height: 1.5;
+}
+
+a:link {
+	text-decoration: none;
+	color: black;
 }
 
 .header {
@@ -27,6 +36,12 @@ body {
 #topmenu ul li {
 	float: left;
 	color: #ededed;
+	padding: 0 10px 0 0;
+}
+
+#topmanu li {
+	float: left;
+	margin: 0 3px;
 }
 
 #topmanu li a {
@@ -83,34 +98,43 @@ body {
 	text-transform: uppercase;
 }
 
-.s1 {
+#s1 {
 	width: 920px;
 	height: 891px;
 	margin: 0 auto;
 	padding: 51px 0 0;
 }
 
-.a1 {
+#a1 {
 	width: 100%;
 	height: 518px;
 }
 
-.a2 {
+#a2 {
 	width: 100%;
 	height: 306px;
 	margin: 16px auto 0;
 }
 
-.a2_1 {
+#a2_1 {
 	width: 240px;
 	height: 258px;
 	padding: 23px 28px;
 	border: 1px solid #e2e2e2;
 	background-color: #fff;
 	float: left;
+	font-weight: bold;
+}
+#a2_1 h3{
+    color: #000303;
+    font-weight: bold;
+    padding: 0 0 12px 0;
+    background: url(../images/main_h3_line.gif) no-repeat 0 bottom;}
+#a2_1 a{
+	float: right;
 }
 
-.a2_2 {
+#a2_2 {
 	width: 240px;
 	height: 258px;
 	padding: 23px 28px;
@@ -119,14 +143,31 @@ body {
 	margin: 0 13px;
 	float: left;
 }
+#a2_2 h3{
+    color: #000303;
+    font-weight: bold;
+    padding: 0 0 12px 0;
+    background: url(../images/main_h3_line.gif) no-repeat 0 bottom;}
+#a2_2 a{
+	float: right;
+}
 
-.a2_3 {
-	width: 240px;
-	height: 258px;
-	padding: 23px 28px;
-	border: 1px solid #e2e2e2;
-	background-color: #fff;
+#a2_3 {
+	width: 298px;
+	height: 306px;
 	float: left;
+}
+#mv {
+	width: 296px;
+	height: 195px;
+	background-color: #fff;
+	border: 1px solid #e2e2e2;
+}
+#fnc_store{
+	width: 298px;
+	height: 95px;
+	background-image: url("../images/22.jpg");
+	margin-top: 13px;
 }
 
 .f1 {
